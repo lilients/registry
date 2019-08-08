@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "name": "id",
+      "type": "string",
+      "title": "id"
+    },
+    "name": {
+      "name": "name",
+      "type": "string",
+      "required": true,
+      "title": "Name"
+    },
+    "link": {
+      "name": "link",
+      "type": "string",
+      "title": "Link"
+    },
+    "ice": {
+      "name": "ice",
+      "type": "string",
+      "title": "Ice",
+      "enum": [
+        "Vanilla",
+        "Strawberry",
+        "Chocolate"
+      ]
+    },
+    "comment": {
+      "name": "comment",
+      "type": "string",
+      "title": "Comment"
+    }
+  }
+}

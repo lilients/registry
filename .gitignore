@@ -1,0 +1,7 @@
+config.json
+node_modules
+schemas/options.json
+schemas/schema.json
+package-lock.json
+pages/
+data/

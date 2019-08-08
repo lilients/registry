@@ -1,0 +1,24 @@
+{
+ "fields": {
+     "id": {
+         "type": "hidden"
+     },
+     "name": {
+         "placeholder": "Enter the full name"
+     },
+     "link": {
+         "type": "url",
+          "placeholder": "Enter a link"
+     },
+     "ice": {
+         "type" : "select",
+         "multiple": true,
+     },
+     "comment": {
+         "type": "textarea",
+         "rows": 5,
+         "cols": 40,
+         "placeholder": "Feel free to enter any type of comment"
+     }
+ }
+}
