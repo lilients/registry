@@ -4,7 +4,7 @@ includes/header.php
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Registry</title>
+    <title></title>
 
     <!-- jquery -->
     <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
@@ -39,8 +39,9 @@ includes/header.php
       }
     ?>
 
-    <!-- own stylesheet -->
+    <!-- own stylesheet and js -->
     <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <script type="text/javascript" src="js/registry.js"></script>
 
   </head>
   <body>
@@ -50,7 +51,7 @@ includes/header.php
         <a href="https://tib.eu"><img id="tib-logo" src="img/tib-logo.png" width="100px"></a>
         <a href="https://tib.eu/rosi-project"><img id="rosi-logo" src="img/rosi-logo.png" width="100px"></a>
         <a href="index.php">
-          <h1>Registry</h1>
+          <h1></h1>
         </a>
         <!-- Navigation -->
         <ul class="list-inline" >
