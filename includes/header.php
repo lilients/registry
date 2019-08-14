@@ -48,9 +48,8 @@ includes/header.php
   <header>
     <div class="header">
       <div class="container">
-        <a href="https://tib.eu"><img id="tib-logo" src="img/tib-logo.png" width="100px"></a>
-        <a href="https://tib.eu/rosi-project"><img id="rosi-logo" src="img/rosi-logo.png" width="100px"></a>
-        <a href="index.php">
+        <a href="./">
+          <img id="logo" src="img/logo.png">
           <h1></h1>
         </a>
         <!-- Navigation -->
