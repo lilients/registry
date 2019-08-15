@@ -1,0 +1,94 @@
+[
+    {
+        "id": "0",
+        "name": "References on Wikipedia pages",
+        "source": "wikipedia",
+        "concept": "Societal impact",
+        "status": "display"
+    },
+    {
+        "id": "1",
+        "name": "Citations in Patents",
+        "source": "cambia-lens",
+        "concept": "Scientific impact",
+        "status": "display"
+    },
+    {
+        "id": "2",
+        "name": "Links to DataCite registered content",
+        "source": "crossref",
+        "concept": "Scientific impact",
+        "status": "display"
+    },
+    {
+        "id": "3",
+        "name": "Links to Crossref registered content",
+        "source": "datacite",
+        "concept": "Scientific impact",
+        "status": "display"
+    },
+    {
+        "id": "4",
+        "name": "Recommendations of research publications",
+        "source": "f1000",
+        "concept": "Scientific impact",
+        "status": "display"
+    },
+    {
+        "id": "5",
+        "name": "Annotations in Hypothes.is",
+        "source": "hypothesis",
+        "concept": "Community",
+        "status": "display"
+    },
+    {
+        "id": "6",
+        "name": "Discussed in blogs and media",
+        "source": "newsfeed",
+        "concept": "Societal impact",
+        "status": "display"
+    },
+    {
+        "id": "7",
+        "name": "Discussed on Reddit",
+        "source": "reddit",
+        "entity": "Person",
+        "concept": "Societal impact",
+        "status": "display"
+    },
+    {
+        "id": "8",
+        "name": "Discussed on sites linked to in subreddits",
+        "source": "reddit-links",
+        "concept": "Societal impact",
+        "status": "hide"
+    },
+    {
+        "id": "9",
+        "name": "Discussed on StackExchange sites",
+        "source": "stackexchange",
+        "concept": "Community",
+        "status": "display"
+    },
+    {
+        "id": "10",
+        "name": "Mentions in tweets",
+        "source": "twitter",
+        "concept": "Societal impact",
+        "status": "display"
+    },
+    {
+        "id": "11",
+        "name": "Links of items on web pages",
+        "source": "web",
+        "concept": "",
+        "status": "hide"
+    },
+    {
+        "id": "12",
+        "name": "Discussed on Wordpress.com sites",
+        "source": "wordpressdotcom",
+        "concept": "Societal impact",
+        "status": "display"
+    }
+]

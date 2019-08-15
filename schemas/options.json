@@ -1,0 +1,14 @@
+{
+ "fields": {
+     "id": {
+         "type": "hidden"
+     },
+     "name": {
+         "placeholder": "Enter the full name"
+     },
+     "status": {
+         "type" : "radio",
+         "rightLabel": "display"
+     }
+ }
+}

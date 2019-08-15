@@ -1,0 +1,41 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "name": "id",
+      "type": "string",
+      "title": "id"
+    },
+    "name": {
+      "name": "name",
+      "type": "string",
+      "title": "Name",
+      "required": true
+    },
+    "source": {
+      "name": "source",
+      "type": "string",
+      "title": "Source"
+    },
+    "entity": {
+      "name": "entity",
+      "type": "string",
+      "title": "Entity",
+      "required": true,
+      "enum": ["Person", "Work"]
+    },
+    "concept": {
+      "name": "concept",
+      "type": "string",
+      "title": "Concept",
+      "enum": ["Scientific impact", "Societal impact", "Community", "Openness"]
+    },
+    "status": {
+      "name": "status",
+      "type": "string",
+      "title": "Status",
+      "required": true,
+      "enum": ["display", "hide"]
+    }
+  }
+}

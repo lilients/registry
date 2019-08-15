@@ -48,14 +48,14 @@ includes/header.php
   <header>
     <div class="header">
       <div class="container">
-        <a href="./">
+        <a href="../">
           <img id="logo" src="img/logo.png">
           <h1></h1>
         </a>
         <!-- Navigation -->
         <ul class="list-inline" >
-          <li><a href="index.php">Home</a></li>
-          <li><a href="about.php">About</a></li>
+          <li><a href="../">Home</a></li>
+          <li><a href="./">About</a></li>
         </ul>
       </div>
     </div>
