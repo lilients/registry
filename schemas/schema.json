@@ -12,10 +12,10 @@
       "title": "Name",
       "required": true
     },
-    "source": {
-      "name": "source",
+    "description": {
+      "name": "description",
       "type": "string",
-      "title": "Source"
+      "title": "Description"
     },
     "entity": {
       "name": "entity",
@@ -28,14 +28,18 @@
       "name": "concept",
       "type": "string",
       "title": "Concept",
-      "enum": ["Scientific impact", "Societal impact", "Community", "Openness"]
-    },
-    "status": {
-      "name": "status",
-      "type": "string",
-      "title": "Status",
       "required": true,
-      "enum": ["display", "hide"]
+      "enum": ["scientific-impact", "societal-impact", "community", "openness"]
+    },
+    "source": {
+      "name": "source",
+      "type": "string",
+      "title": "Source"
+    },
+    "key": {
+      "name": "key",
+      "type": "string",
+      "title": "Key/s"
     }
   }
 }

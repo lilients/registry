@@ -20,7 +20,6 @@
 
 </div>
 
-
 <script>
  $.get("pages/about.md", function(data){
    about.innerHTML = markdown.toHTML(data);

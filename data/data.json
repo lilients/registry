@@ -1,94 +1,175 @@
 [
     {
         "id": "0",
-        "name": "References on Wikipedia pages",
-        "source": "wikipedia",
-        "concept": "Societal impact",
-        "status": "display"
+        "name": "Citation count",
+        "description": "Number of citations based on COCI",
+        "concept": "scientific-impact",
+        "source": "COCI",
+        "key": [0, "citation_count"]
     },
     {
         "id": "1",
-        "name": "Citations in Patents",
-        "source": "cambia-lens",
-        "concept": "Scientific impact",
-        "status": "display"
+        "name": "Citation count",
+        "description": "Number of citation based on paperbuzz",
+        "concept": "scientific-impact",
+        "source": "Paperbuzz",
+        "key": [
+            "metadata",
+            "is-referenced-by-count"
+        ]
     },
     {
         "id": "2",
-        "name": "Links to DataCite registered content",
-        "source": "crossref",
-        "concept": "Scientific impact",
-        "status": "display"
+        "name": "License",
+        "description": "The license of the publication",
+        "concept": "openness",
+        "source": "Paperbuzz",
+        "key": [
+            "open_access",
+            "best_oa_location",
+            "license"
+        ]
     },
     {
         "id": "3",
-        "name": "Links to Crossref registered content",
-        "source": "datacite",
-        "concept": "Scientific impact",
-        "status": "display"
+        "name": "Repository copy",
+        "description": "Is there a copy in a Repository?  Based on unpaywall",
+        "concept": "openness",
+        "source": "Paperbuzz",
+        "key": [
+            "open_access",
+            "has_repository_copy"
+        ]
     },
     {
         "id": "4",
-        "name": "Recommendations of research publications",
-        "source": "f1000",
-        "concept": "Scientific impact",
-        "status": "display"
+        "name": "Open Access",
+        "description": "Is this an open access publication? Based on unpaywall",
+        "concept": "openness",
+        "source": "Paperbuzz",
+        "key": [
+            "open_access",
+            "is_oa"
+        ]
     },
     {
         "id": "5",
-        "name": "Annotations in Hypothes.is",
-        "source": "hypothesis",
-        "concept": "Community",
-        "status": "display"
+        "name": "Type of OA",
+        "description": "Type of oa publication (gold, green, etc.) based on unpaywall",
+        "concept": "openness",
+        "source": "Paperbuzz",
+        "key": [
+            "open_access",
+            "oa_status"
+        ]
     },
     {
         "id": "6",
-        "name": "Discussed in blogs and media",
-        "source": "newsfeed",
+        "name": "References on Wikipedia pages",
+        "description": "",
+        "entity": "Work",
         "concept": "Societal impact",
-        "status": "display"
+        "source": "wikipedia"
     },
     {
         "id": "7",
-        "name": "Discussed on Reddit",
-        "source": "reddit",
-        "entity": "Person",
-        "concept": "Societal impact",
-        "status": "display"
+        "name": "Citations in Patents",
+        "description": "",
+        "entity": "Work",
+        "concept": "scientific-impact",
+        "source": "cambia-lens",
+        "keys": "test"
     },
     {
         "id": "8",
-        "name": "Discussed on sites linked to in subreddits",
-        "source": "reddit-links",
-        "concept": "Societal impact",
-        "status": "hide"
+        "name": "Links to DataCite registered content",
+        "description": "",
+        "entity": "Work",
+        "concept": "scientific-impact",
+        "source": "crossref"
     },
     {
         "id": "9",
-        "name": "Discussed on StackExchange sites",
-        "source": "stackexchange",
-        "concept": "Community",
-        "status": "display"
+        "name": "Links to Crossref registered content",
+        "description": "",
+        "entity": "Work",
+        "concept": "scientific-impact",
+        "source": "datacite"
     },
     {
         "id": "10",
-        "name": "Mentions in tweets",
-        "source": "twitter",
-        "concept": "Societal impact",
-        "status": "display"
+        "name": "Recommendations of research publications",
+        "description": "",
+        "entity": "Work",
+        "concept": "scientific-impact",
+        "source": "f1000"
     },
     {
         "id": "11",
-        "name": "Links of items on web pages",
-        "source": "web",
-        "concept": "",
-        "status": "hide"
+        "name": "Annotations in Hypothes.is",
+        "description": "",
+        "entity": "Work",
+        "concept": "openness",
+        "source": "hypothesis",
+        "keys": ""
     },
     {
         "id": "12",
+        "name": "Discussed in blogs and media",
+        "description": "",
+        "entity": "Work",
+        "concept": "societal-impact",
+        "source": "newsfeed"
+    },
+    {
+        "id": "13",
+        "name": "Discussed on Reddit",
+        "description": "",
+        "entity": "Work",
+        "concept": "societal-impact",
+        "source": "reddit"
+    },
+    {
+        "id": "14",
+        "name": "Discussed on sites linked to in subreddits",
+        "description": "",
+        "entity": "Work",
+        "concept": "societal-impact",
+        "source": "reddit-links",
+        "status": "hide"
+    },
+    {
+        "id": "15",
+        "name": "Discussed on StackExchange sites",
+        "description": "",
+        "entity": "Work",
+        "concept": "community",
+        "source": "stackexchange"
+    },
+    {
+        "id": "16",
+        "name": "Mentions in tweets",
+        "description": "",
+        "entity": "Work",
+        "concept": "societal-impact",
+        "source": "twitter",
+        "keys": ""
+    },
+    {
+        "id": "17",
+        "name": "Links of items on web pages",
+        "description": "",
+        "entity": "Work",
+        "concept": "societal-impact",
+        "source": "web"
+    },
+    {
+        "id": "18",
         "name": "Discussed on Wordpress.com sites",
+        "description": "",
+        "entity": "Work",
+        "concept": "societal-impact",
         "source": "wordpressdotcom",
-        "concept": "Societal impact",
-        "status": "display"
+        "keys": ""
     }
 ]

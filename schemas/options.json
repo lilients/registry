@@ -4,11 +4,10 @@
          "type": "hidden"
      },
      "name": {
-         "placeholder": "Enter the full name"
+         "placeholder": "Enter a name for the indicator (will be displayed as title)"
      },
-     "status": {
-         "type" : "radio",
-         "rightLabel": "display"
+     "description": {
+         "placeholder": "Enter a description of the indicator"
      }
  }
 }
