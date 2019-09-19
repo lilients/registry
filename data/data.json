@@ -1,89 +1,100 @@
 [
     {
         "id": "0",
-        "name": "Citation count",
+        "name": "Citations (COCI)",
         "description": "Number of citations based on COCI",
         "concept": "scientific-impact",
         "source": "COCI",
-        "key": [0, "citation_count"]
+        "interface": "https:\/\/opencitations.net\/index\/coci\/api\/v1\/metadata/",
+        "key": [0, "citation_count"],
+        "type": "number"
     },
     {
         "id": "1",
-        "name": "Citation count",
+        "name": "Citations (Paperbuzz)",
         "description": "Number of citation based on paperbuzz",
         "concept": "scientific-impact",
         "source": "Paperbuzz",
+        "interface": "https:\/\/api.paperbuzz.org\/v0\/doi/",
         "key": [
             "metadata",
             "is-referenced-by-count"
-        ]
+        ],
+        "type": "number"
     },
     {
         "id": "2",
         "name": "License",
         "description": "The license of the publication",
         "concept": "openness",
-        "source": "Paperbuzz",
+        "source": "Unpaywall",
+        "interface": "https:\/\/api.paperbuzz.org\/v0\/doi/",
         "key": [
             "open_access",
             "best_oa_location",
             "license"
-        ]
+        ],
+        "type": "string"
     },
     {
         "id": "3",
         "name": "Repository copy",
-        "description": "Is there a copy in a Repository?  Based on unpaywall",
+        "description": "Is there a copy in a Repository? Based on unpaywall",
         "concept": "openness",
-        "source": "Paperbuzz",
+        "source": "Unpaywall",
+        "interface": "https:\/\/api.paperbuzz.org\/v0\/doi/",
         "key": [
             "open_access",
             "has_repository_copy"
-        ]
+        ],
+        "type": "bool"
     },
     {
         "id": "4",
         "name": "Open Access",
         "description": "Is this an open access publication? Based on unpaywall",
         "concept": "openness",
-        "source": "Paperbuzz",
+        "source": "Unpaywall",
+        "interface": "https:\/\/api.paperbuzz.org\/v0\/doi/",
         "key": [
             "open_access",
             "is_oa"
-        ]
+        ],
+        "type": "bool"
     },
     {
         "id": "5",
         "name": "Type of OA",
         "description": "Type of oa publication (gold, green, etc.) based on unpaywall",
         "concept": "openness",
-        "source": "Paperbuzz",
+        "source": "Unpaywall",
+        "interface": "https:\/\/api.paperbuzz.org\/v0\/doi/",
         "key": [
             "open_access",
             "oa_status"
-        ]
+        ],
+        "type": "string"
     },
     {
         "id": "6",
         "name": "References on Wikipedia pages",
-        "description": "",
+        "description": "References of items on Wikipedia",
         "entity": "Work",
-        "concept": "Societal impact",
+        "concept": "societal-impact",
         "source": "wikipedia"
     },
     {
         "id": "7",
         "name": "Citations in Patents",
-        "description": "",
+        "description": "Citations from Patents",
         "entity": "Work",
         "concept": "scientific-impact",
-        "source": "cambia-lens",
-        "keys": "test"
+        "source": "cambia-lens"
     },
     {
         "id": "8",
         "name": "Links to DataCite registered content",
-        "description": "",
+        "description": "Relationships from Crossref DOIs to DataCite DOIs.",
         "entity": "Work",
         "concept": "scientific-impact",
         "source": "crossref"
@@ -91,7 +102,7 @@
     {
         "id": "9",
         "name": "Links to Crossref registered content",
-        "description": "",
+        "description": "Links from DataCite DOIs to Crossref DOIs",
         "entity": "Work",
         "concept": "scientific-impact",
         "source": "datacite"
@@ -99,7 +110,7 @@
     {
         "id": "10",
         "name": "Recommendations of research publications",
-        "description": "",
+        "description": "F1000 Reviews that relate to articles with DOIs.",
         "entity": "Work",
         "concept": "scientific-impact",
         "source": "f1000"
@@ -107,16 +118,15 @@
     {
         "id": "11",
         "name": "Annotations in Hypothes.is",
-        "description": "",
+        "description": "All Hypothes.is annotations that are available to the public",
         "entity": "Work",
         "concept": "openness",
-        "source": "hypothesis",
-        "keys": ""
+        "source": "hypothesis"
     },
     {
         "id": "12",
         "name": "Discussed in blogs and media",
-        "description": "",
+        "description": "Links to items on blogs and websites with syndication feeds",
         "entity": "Work",
         "concept": "societal-impact",
         "source": "newsfeed"
@@ -124,7 +134,7 @@
     {
         "id": "13",
         "name": "Discussed on Reddit",
-        "description": "",
+        "description": "Mentions and discussions of items on Reddit",
         "entity": "Work",
         "concept": "societal-impact",
         "source": "reddit"
@@ -132,16 +142,15 @@
     {
         "id": "14",
         "name": "Discussed on sites linked to in subreddits",
-        "description": "",
+        "description": "Mentions in pages shared on Reddit.",
         "entity": "Work",
         "concept": "societal-impact",
-        "source": "reddit-links",
-        "status": "hide"
+        "source": "reddit-links"
     },
     {
         "id": "15",
         "name": "Discussed on StackExchange sites",
-        "description": "",
+        "description": "Questions and answers on all StackExchange sites",
         "entity": "Work",
         "concept": "community",
         "source": "stackexchange"
@@ -149,16 +158,15 @@
     {
         "id": "16",
         "name": "Mentions in tweets",
-        "description": "",
+        "description": "Links to items on Twitter",
         "entity": "Work",
         "concept": "societal-impact",
-        "source": "twitter",
-        "keys": ""
+        "source": "twitter"
     },
     {
         "id": "17",
-        "name": "Links of items on web pages",
-        "description": "",
+        "name": "Links on web pages",
+        "description": "Links of items on web pages",
         "entity": "Work",
         "concept": "societal-impact",
         "source": "web"
@@ -166,10 +174,9 @@
     {
         "id": "18",
         "name": "Discussed on Wordpress.com sites",
-        "description": "",
+        "description": "Discussed on Wordpress.com sites",
         "entity": "Work",
         "concept": "societal-impact",
-        "source": "wordpressdotcom",
-        "keys": ""
+        "source": "wordpressdotcom"
     }
 ]
