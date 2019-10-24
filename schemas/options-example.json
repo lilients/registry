@@ -12,7 +12,7 @@
      },
      "ice": {
          "type" : "select",
-         "multiple": true,
+         "multiple": true
      },
      "comment": {
          "type": "textarea",
