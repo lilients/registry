@@ -55,7 +55,8 @@ includes/header.php
         <!-- Navigation -->
         <ul class="list-inline" >
           <li><a href="../">Home</a></li>
-          <li><a href="./">About</a></li>
+          <li><a href="../indicators">About</a></li>
+          <li><a href="./">Customize</a></li>
         </ul>
       </div>
     </div>

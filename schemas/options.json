@@ -1,13 +1,30 @@
 {
  "fields": {
      "id": {
-         "type": "hidden"
+       "type": "hidden"
      },
      "name": {
-         "placeholder": "Enter a name for the indicator (will be displayed as title)"
+       "placeholder": "Enter a name for your customization"
      },
-     "description": {
-         "placeholder": "Enter a description of the indicator"
+     "comment": {
+       "type": "textarea",
+       "rows": 5,
+       "cols": 40,
+       "placeholder": "Feel free to enter any type of comment"
+     },
+     "indicators": {
+       "name": "indicators[]",
+       "type" : "select",
+       "multiple": true,
+       "size": 5,
+       "optionLabels": [
+         "Citations (COCI)",
+         "Citations (Paperbuzz)",
+         "License",
+         "Repository copy",
+         "Open Access",
+         "Type of OA"
+       ]
      }
  }
 }

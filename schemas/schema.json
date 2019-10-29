@@ -4,42 +4,25 @@
     "id": {
       "name": "id",
       "type": "string",
-      "title": "id"
+      "title": "Id"
     },
     "name": {
       "name": "name",
       "type": "string",
-      "title": "Name",
-      "required": true
-    },
-    "description": {
-      "name": "description",
-      "type": "string",
-      "title": "Description"
-    },
-    "entity": {
-      "name": "entity",
-      "type": "string",
-      "title": "Entity",
       "required": true,
-      "enum": ["Person", "Work"]
+      "title": "Name"
     },
-    "concept": {
-      "name": "concept",
+    "comment": {
+      "name": "comment",
       "type": "string",
-      "title": "Concept",
+      "title": "Comment"
+    },
+    "indicators": {
+      "name": "indicators",
+      "type": "string",
       "required": true,
-      "enum": ["scientific-impact", "societal-impact", "community", "openness"]
-    },
-    "source": {
-      "name": "source",
-      "type": "string",
-      "title": "Source"
-    },
-    "key": {
-      "name": "key",
-      "type": "string",
-      "title": "Key/s"
+      "title": "Indicators",
+      "enum": ["0", "1", "2", "3", "4"]
     }
   }
 }
