@@ -1,7 +1,7 @@
 [
     {
         "id": "0",
-        "name": "Default publication",
+        "name": "Default",
         "comment": "all indicators are beeing displayed",
         "indicators": [
             "0",
@@ -13,8 +13,8 @@
     },
     {
         "id": "1",
-        "name": "Work customized",
-        "comment": "Only two indicators",
+        "name": "Customized",
+        "comment": "Hide Openness indicators",
         "indicators": [
             "0",
             "1"
