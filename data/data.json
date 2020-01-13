@@ -3,19 +3,24 @@
         "id": "0",
         "name": "Citations (COCI)",
         "description": "Number of citations based on COCI",
+        "entity": "Work",
         "concept": "scientific-impact",
         "source": "COCI",
-        "interface": "https:\/\/opencitations.net\/index\/coci\/api\/v1\/metadata/",
-        "key": [0, "citation_count"],
+        "interface": "https:\/\/opencitations.net\/index\/coci\/api\/v1\/metadata\/",
+        "key": [
+            0,
+            "citation_count"
+        ],
         "type": "number"
     },
     {
         "id": "1",
         "name": "Citations (Paperbuzz)",
         "description": "Number of citation based on paperbuzz",
+        "entity": "Work",
         "concept": "scientific-impact",
         "source": "Paperbuzz",
-        "interface": "https:\/\/api.paperbuzz.org\/v0\/doi/",
+        "interface": "https:\/\/api.paperbuzz.org\/v0\/doi\/",
         "key": [
             "metadata",
             "is-referenced-by-count"
@@ -26,9 +31,10 @@
         "id": "2",
         "name": "License",
         "description": "The license of the publication",
+        "entity": "Work",
         "concept": "openness",
         "source": "Unpaywall",
-        "interface": "https:\/\/api.paperbuzz.org\/v0\/doi/",
+        "interface": "https:\/\/api.paperbuzz.org\/v0\/doi\/",
         "key": [
             "open_access",
             "best_oa_location",
@@ -40,9 +46,10 @@
         "id": "3",
         "name": "Repository copy",
         "description": "Is there a copy in a Repository? Based on unpaywall",
+        "entity": "Work",
         "concept": "openness",
         "source": "Unpaywall",
-        "interface": "https:\/\/api.paperbuzz.org\/v0\/doi/",
+        "interface": "https:\/\/api.paperbuzz.org\/v0\/doi\/",
         "key": [
             "open_access",
             "has_repository_copy"
@@ -53,9 +60,10 @@
         "id": "4",
         "name": "Open Access",
         "description": "Is this an open access publication? Based on unpaywall",
+        "entity": "Work",
         "concept": "openness",
         "source": "Unpaywall",
-        "interface": "https:\/\/api.paperbuzz.org\/v0\/doi/",
+        "interface": "https:\/\/api.paperbuzz.org\/v0\/doi\/",
         "key": [
             "open_access",
             "is_oa"
@@ -66,9 +74,10 @@
         "id": "5",
         "name": "Type of OA",
         "description": "Type of oa publication (gold, green, etc.) based on unpaywall",
+        "entity": "Work",
         "concept": "openness",
         "source": "Unpaywall",
-        "interface": "https:\/\/api.paperbuzz.org\/v0\/doi/",
+        "interface": "https:\/\/api.paperbuzz.org\/v0\/doi\/",
         "key": [
             "open_access",
             "oa_status"
@@ -94,10 +103,11 @@
     {
         "id": "8",
         "name": "Links to DataCite registered content",
-        "description": "Relationships from Crossref DOIs to DataCite DOIs.",
+        "description": "Relationships from Crossref DOIs to DataCite DOIs",
         "entity": "Work",
         "concept": "scientific-impact",
-        "source": "crossref"
+        "source": "crossref",
+        "key": ""
     },
     {
         "id": "9",
@@ -110,10 +120,11 @@
     {
         "id": "10",
         "name": "Recommendations of research publications",
-        "description": "F1000 Reviews that relate to articles with DOIs.",
+        "description": "F1000 Reviews that relate to articles with DOIs",
         "entity": "Work",
         "concept": "scientific-impact",
-        "source": "f1000"
+        "source": "f1000",
+        "key": ""
     },
     {
         "id": "11",
