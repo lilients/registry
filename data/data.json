@@ -1,7 +1,7 @@
 [
     {
         "id": "0",
-        "name": "Default",
+        "name": "Display all",
         "comment": "all indicators are beeing displayed",
         "indicators": [
             "0",
@@ -13,11 +13,12 @@
     },
     {
         "id": "1",
-        "name": "Customized",
-        "comment": "Hide Openness indicators",
+        "name": "Hide citations",
+        "comment": "hide the citation indicators, display all the other",
         "indicators": [
-            "0",
-            "1"
+            "2",
+            "3",
+            "4"
         ]
     }
 ]
