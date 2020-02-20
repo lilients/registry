@@ -43,6 +43,9 @@ includes/header.php
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <script type="text/javascript" src="js/registry.js"></script>
 
+    <!-- favicon-->
+    <link rel="shortcut icon" type="image/png" href="img/favicon.ico"/>
+
   </head>
   <body>
   <header>
