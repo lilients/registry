@@ -22,7 +22,7 @@
       "type": "string",
       "required": true,
       "title": "Indicators",
-      "enum": ["0", "1", "2", "3", "4"]
+      "enum": ["0", "1", "2", "3", "4", "19"]
     }
   }
 }
