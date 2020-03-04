@@ -189,5 +189,19 @@
         "entity": "Work",
         "concept": "societal-impact",
         "source": "wordpressdotcom"
+    },
+    {
+        "id": "19",
+        "name": "DOAJ",
+        "description": "Is the journal of this article in DOAJ? Based on Unpaywall",
+        "entity": "Work",
+        "concept": "openness",
+        "source": "Unpaywall",
+        "interface": "https:\/\/api.paperbuzz.org\/v0\/doi\/",
+        "key":  [
+            "open_access",
+            "journal_is_in_doaj"
+        ],
+        "type": "bool"
     }
 ]
