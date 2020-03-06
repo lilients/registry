@@ -203,5 +203,20 @@
             "journal_is_in_doaj"
         ],
         "type": "bool"
+    },
+    {
+        "id": "20",
+        "name": "OA link",
+        "description": "Link to the best Open Acces Location",
+        "entity": "Work",
+        "concept": "openness",
+        "source": "Unpaywall",
+        "interface": "https:\/\/api.paperbuzz.org\/v0\/doi\/",
+        "key":  [
+            "open_access",
+            "best_oa_location",
+            "url"
+        ],
+        "type": "link"
     }
 ]
