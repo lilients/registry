@@ -12,7 +12,7 @@ If you would like to give feedback on this tool, please contact us via email: [r
 
 Scientometric indicators are categorized in four concepts that have been developed within the ROSI project: Scientific impact, societal impact, community, and openness.
 
-* Scientic Impact: The impact that an entity has within the scientific community; is mostly based on citation-based indicators (e.g. publication impact as measured through citations or the number of publications (adopted from Neylon 2017).
+* Scientific Impact: The impact that an entity has within the scientific community; is mostly based on citation-based indicators (e.g. publication impact as measured through citations or the number of publications (adopted from Neylon 2017).
 * Societal Impact: The impact that an entity has within society. Recognition from societal groups or for societal activities; measurable impact (e.g via patents, citations in policy documents, mentions in social media, press).
 * Community: Involvement in the scientific community (e.g. participation in conferences, peer review and editorial activities, and learned societies).
 * Openness: Compliance to Open Science Standards (e.g. FAIR research data (Findable, Accessible, Interoperable und Reusable), social openness (readability etc.).
